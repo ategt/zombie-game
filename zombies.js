@@ -1212,4 +1212,7 @@ document.addEventListener('keyup',  (event) => {
 })
 
 window.onload = startGame
-module.exports =  { myGamePiece, myGameArea, setupGame, startGame, getDropSupplyCreate, setDropSupplyCreate, setSpawnZombie, getSpawnZombie, updateGameArea, Player, getMyGamePiece, getActiveZombies, getAllZombies, isGameRunning, getStatusText, getObjects };
+
+if (typeof module !== 'undefined' && typeof module.exports !== 'undefined'){
+    module.exports =  { myGamePiece, myGameArea, setupGame, startGame, getDropSupplyCreate, setDropSupplyCreate, setSpawnZombie, getSpawnZombie, updateGameArea, Player, getMyGamePiece, getActiveZombies, getAllZombies, isGameRunning, getStatusText, getObjects };
+}
