@@ -7,7 +7,7 @@ I did a kata about zombie survival a few weeks ago, and it was okay, but the kat
 * Node - v8.7.0
 * NPM  - 5.5.1
 
-Or atleast those are the versions that I have.
+Or at least those are the versions that I have.
 
 ## Quickstart
 After cloning the repository to a local directory, run:
